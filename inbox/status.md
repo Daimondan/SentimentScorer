@@ -1,37 +1,39 @@
 # Current Status
 
-**Last updated:** 2026-07-17T17:40:00Z
-**Updated by:** hermes-agent (glm-5.2 via ollama-cloud)
+**Last updated:** 2026-07-17T18:56:00Z
+**Updated by:** Hermes Agent
 
 ---
 
 ## Repo state
 
-- **Branch:** main
-- **Working tree:** untracked files from original zip extraction now being organized
-- **Latest commit:** `d27df64` — Add files via upload
+- **Branch:** `feat/light-review-workspace`
+- **Working tree:** redesign implementation ready for commit
+- **Production:** https://aascraper.glenbeu.com
 
 ## What is done
 
-- Original `review.html` (437 KB) downloaded from GitHub and committed to `legacy/original-review.html`
-- `American_Apparel_June_2026_First_Pass.xlsx` (198 records, 127 KB) downloaded from GitHub and placed in `data/imports/`
-- `inbox/` communication system created with messages/, tasks/, decisions/, handoffs/ folders
-- `legacy/README.md` updated to document the original artifact
-- `data/imports/README.md` documents the first-pass dataset and import workflow
-- `.github/` templates and AGENT_LOG created
-- README.md, AGENTS.md, BACKLOG.md updated to reference new structure
+- Preserved `legacy/original-review.html` as the immutable authoritative review artifact.
+- Added `public/redesign.css`, a complete light workspace design system with warm neutral surfaces and American Apparel red primary actions.
+- Added `public/redesign.js` for progressive header, metric, analysis, table, dialog, and accessibility enhancements.
+- Updated `server-legacy.js` to compose the authoritative artifact with the redesign assets at response time.
+- Implemented desktop and mobile layouts, including a right-side detail drawer and stacked mobile evidence cards.
+- Ran browser QA across analysis, priority review, post detail, comments, and sources.
+- Verified no page JavaScript errors and no 390px page overflow.
+- Deployed the composition server under systemd on port 9125.
+- Restored a valid Let's Encrypt certificate after DNS propagation and verified the public HTTPS app.
 
-## What is in-progress
+## What is in progress
 
-- Committing and pushing the restructured repo to GitHub
+- Commit and push the completed redesign branch.
 
 ## What the next agent should do
 
-1. Pull the latest main and verify the new structure.
-2. Start on P0 backlog items — see `docs/BACKLOG.md`.
-3. The xlsx in `data/imports/` contains 198 first-pass records across 8 sheets — write an import script to load relevant records into `data/posts.json`.
-4. Compare `legacy/original-review.html` against the reconstructed `public/` UI to find behavior gaps.
+1. Treat `legacy/original-review.html` as immutable source data.
+2. Make visual changes in `public/redesign.css` and progressive behavior changes in `public/redesign.js`.
+3. Run desktop and 390px mobile browser QA before deployment.
+4. Keep `sentiment-scorer.service` on `server-legacy.js` unless the reconstructed application reaches feature parity.
 
 ## Blockers
 
-- None currently.
+- None.

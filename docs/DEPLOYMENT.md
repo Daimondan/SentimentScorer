@@ -5,7 +5,7 @@
 The current project can run anywhere Node.js 18+ is available:
 
 ```bash
-node server.js
+node server-legacy.js
 ```
 
 ## Production target

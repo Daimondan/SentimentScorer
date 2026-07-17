@@ -6,6 +6,8 @@ const path = require("path");
 
 const ROOT = __dirname;
 const LEGACY_HTML = path.join(ROOT, "legacy", "original-review.html");
+const REDESIGN_CSS = path.join(ROOT, "public", "redesign.css");
+const REDESIGN_JS = path.join(ROOT, "public", "redesign.js");
 const DATA_DIR = path.join(ROOT, "data");
 const POSTS_FILE = path.join(DATA_DIR, "posts.json");
 const REVIEWS_FILE = path.join(DATA_DIR, "reviews.json");
@@ -45,11 +47,38 @@ function sendFile(response, status, filePath, contentType) {
     response.writeHead(status, {
       "Content-Type": contentType,
       "Cache-Control": "no-cache",
+      "X-Content-Type-Options": "nosniff",
     });
     response.end(body);
   } catch (error) {
     response.writeHead(404, { "Content-Type": "text/plain" });
     response.end("Not found");
+  }
+}
+
+function sendReviewApp(response) {
+  try {
+    const source = fs.readFileSync(LEGACY_HTML, "utf8");
+    const body = source
+      .replace(
+        "</head>",
+        '<link rel="stylesheet" href="/redesign.css">\n</head>'
+      )
+      .replace(
+        "</body>",
+        '<script src="/redesign.js" defer></script>\n</body>'
+      );
+    response.writeHead(200, {
+      "Content-Type": "text/html; charset=utf-8",
+      "Content-Length": Buffer.byteLength(body),
+      "Cache-Control": "no-cache",
+      "X-Content-Type-Options": "nosniff",
+      "Referrer-Policy": "no-referrer",
+    });
+    response.end(body);
+  } catch (error) {
+    console.error("Failed to compose review app:", error.message);
+    sendJson(response, 500, { error: "Review app unavailable" });
   }
 }
 
@@ -66,9 +95,17 @@ const server = http.createServer((request, response) => {
     return;
   }
 
-  // Serve the original review.html at /
+  // Compose the authoritative review app with the production redesign layer.
   if (request.method === "GET" && (url.pathname === "/" || url.pathname === "/index.html")) {
-    return sendFile(response, 200, LEGACY_HTML, "text/html; charset=utf-8");
+    return sendReviewApp(response);
+  }
+
+  if (request.method === "GET" && url.pathname === "/redesign.css") {
+    return sendFile(response, 200, REDESIGN_CSS, "text/css; charset=utf-8");
+  }
+
+  if (request.method === "GET" && url.pathname === "/redesign.js") {
+    return sendFile(response, 200, REDESIGN_JS, "text/javascript; charset=utf-8");
   }
 
   // Health check
