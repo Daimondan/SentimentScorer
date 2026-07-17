@@ -1,0 +1,360 @@
+[
+  {
+    "key": "ig:3921818661715907780",
+    "id": "3921818661715907780",
+    "platform": "Instagram",
+    "itemType": "post",
+    "parentKey": null,
+    "source": "IG hashtag",
+    "published": "2026-06-17T23:00:42.000Z",
+    "author": "palaistheatre",
+    "contentType": "carousel",
+    "caption": "WIN THE GOLDEN TICKET AT PALAIS THEATRE. Thanks to American Apparel, one lucky winner will score 10x double passes.",
+    "hashtags": [
+      "giveaway",
+      "americanapparel",
+      "melbourneevents"
+    ],
+    "mentions": [
+      "americanapparelanz",
+      "palaistheatre"
+    ],
+    "comments": 1347,
+    "likes": 640,
+    "plays": 0,
+    "url": "https://www.instagram.com/p/DZtGUtNExTE/",
+    "automated": {
+      "decision": "relevant",
+      "category": "campaign_or_partnership",
+      "confidence": 0.98,
+      "reason": "Caption explicitly identifies American Apparel as the giveaway partner."
+    },
+    "media": {
+      "status": "cover_only",
+      "carouselComplete": false,
+      "videoComplete": false,
+      "audioTranscribed": false,
+      "ocrComplete": false
+    },
+    "evidence": [
+      {
+        "source": "caption",
+        "finding": "American Apparel explicitly named as giveaway partner",
+        "confidence": 0.99
+      }
+    ],
+    "reviewReason": "carousel_incomplete"
+  },
+  {
+    "key": "tt:7651670861321129238",
+    "id": "7651670861321129238",
+    "platform": "TikTok",
+    "itemType": "post",
+    "parentKey": null,
+    "source": "TikTok hashtag",
+    "published": "2026-06-15T17:10:57.000Z",
+    "author": "estare",
+    "contentType": "video",
+    "caption": "Also found my riding and disco pants! What a throwback, I’m still obsessed!! @Los Angeles Apparel",
+    "hashtags": [
+      "americanapparel",
+      "losangelesapparel",
+      "2000sthrowback",
+      "2000fashion"
+    ],
+    "mentions": [
+      "Los Angeles Apparel"
+    ],
+    "comments": 8,
+    "likes": 185,
+    "plays": 3328,
+    "url": "https://www.tiktok.com/@estare/video/7651670861321129238",
+    "automated": {
+      "decision": "relevant",
+      "category": "legacy_throwback",
+      "confidence": 0.99,
+      "reason": "Caption explicitly identifies disco pants and a throwback context."
+    },
+    "media": {
+      "status": "not_acquired",
+      "carouselComplete": false,
+      "videoComplete": false,
+      "audioTranscribed": false,
+      "ocrComplete": false
+    },
+    "evidence": [
+      {
+        "source": "caption",
+        "finding": "Disco pants and throwback explicitly stated",
+        "confidence": 0.99
+      }
+    ],
+    "reviewReason": "media_incomplete"
+  },
+  {
+    "key": "ig:DZ-ck8uRRps",
+    "id": "DZ-ck8uRRps",
+    "platform": "Instagram",
+    "itemType": "post",
+    "parentKey": null,
+    "source": "IG mention",
+    "published": "2026-06-01T00:00:00.000Z",
+    "author": "j_honey_5",
+    "contentType": "video",
+    "caption": "The lamp was the beginning. The legend is me.",
+    "hashtags": [],
+    "mentions": [
+      "americanapparel"
+    ],
+    "comments": null,
+    "likes": null,
+    "plays": null,
+    "url": "https://www.instagram.com/p/DZ-ck8uRRps/",
+    "automated": {
+      "decision": "needs_review",
+      "category": "possible_legacy_throwback",
+      "confidence": 0.72,
+      "reason": "Cover-frame review suggested a leotard/bodysuit, a discontinued American Apparel category, but the complete video and audio were not acquired."
+    },
+    "media": {
+      "status": "cover_only",
+      "carouselComplete": false,
+      "videoComplete": false,
+      "audioTranscribed": false,
+      "ocrComplete": false
+    },
+    "evidence": [
+      {
+        "source": "visual_cover",
+        "finding": "Leotard/bodysuit-style garment visible",
+        "confidence": 0.78
+      },
+      {
+        "source": "caption",
+        "finding": "Caption does not identify the product or brand",
+        "confidence": 0.99
+      },
+      {
+        "source": "mention",
+        "finding": "American Apparel tagged among available metadata",
+        "confidence": 0.85
+      }
+    ],
+    "reviewReason": "media_incomplete"
+  },
+  {
+    "key": "ig:3928870301786724140",
+    "id": "3928870301786724140",
+    "platform": "Instagram",
+    "itemType": "post",
+    "parentKey": null,
+    "source": "IG hashtag",
+    "published": "2026-06-27T16:30:02.000Z",
+    "author": "maykozlowska",
+    "contentType": "carousel",
+    "caption": "#tumblr2014 #tumblraesthetic #americanapparel #indiesleaze #internetangel",
+    "hashtags": [
+      "tumblr2014",
+      "tumblraesthetic",
+      "americanapparel",
+      "indiesleaze"
+    ],
+    "mentions": [],
+    "comments": 15,
+    "likes": 442,
+    "plays": 0,
+    "url": "https://www.instagram.com/p/DaGJrkylFcs/",
+    "automated": {
+      "decision": "needs_review",
+      "category": "nostalgia_or_legacy",
+      "confidence": 0.62,
+      "reason": "American Apparel and 2014 aesthetic signals are present, but the complete carousel has not been inspected."
+    },
+    "media": {
+      "status": "cover_only",
+      "carouselComplete": false,
+      "videoComplete": false,
+      "audioTranscribed": false,
+      "ocrComplete": false
+    },
+    "evidence": [
+      {
+        "source": "hashtag",
+        "finding": "American Apparel and Tumblr 2014 aesthetic hashtags",
+        "confidence": 0.9
+      }
+    ],
+    "reviewReason": "carousel_incomplete"
+  },
+  {
+    "key": "ig:3922422499866343570",
+    "id": "3922422499866343570",
+    "platform": "Instagram",
+    "itemType": "post",
+    "parentKey": null,
+    "source": "IG hashtag",
+    "published": "2026-06-18T19:07:33.000Z",
+    "author": "barbiepinkcatlady",
+    "contentType": "image",
+    "caption": "A blush pink throwback. American Apparel was an iconic brand in the 2010s. I still have their lace dress and matching undergarments.",
+    "hashtags": [
+      "americanapparel"
+    ],
+    "mentions": [],
+    "comments": null,
+    "likes": null,
+    "plays": 0,
+    "url": "https://www.instagram.com/p/DZ0example/",
+    "automated": {
+      "decision": "relevant",
+      "category": "legacy_throwback",
+      "confidence": 0.98,
+      "reason": "Caption explicitly identifies a 2010s throwback and discontinued product categories."
+    },
+    "media": {
+      "status": "not_acquired",
+      "carouselComplete": false,
+      "videoComplete": false,
+      "audioTranscribed": false,
+      "ocrComplete": false
+    },
+    "evidence": [
+      {
+        "source": "caption",
+        "finding": "Explicit throwback, 2010s and legacy dress/undergarments",
+        "confidence": 0.99
+      }
+    ],
+    "reviewReason": "none"
+  },
+  {
+    "key": "tt:7648405692566523150",
+    "id": "7648405692566523150",
+    "platform": "TikTok",
+    "itemType": "post",
+    "parentKey": null,
+    "source": "TikTok hashtag",
+    "published": "2026-06-06T22:00:44.000Z",
+    "author": "onlyoliviajasmine",
+    "contentType": "video",
+    "caption": "@Los Angeles Apparel #losangelesapparel #americanapparel #nostalgia #vibes",
+    "hashtags": [
+      "losangelesapparel",
+      "americanapparel",
+      "nostalgia"
+    ],
+    "mentions": [
+      "Los Angeles Apparel"
+    ],
+    "comments": 2,
+    "likes": 144,
+    "plays": 1710,
+    "url": "https://www.tiktok.com/@onlyoliviajasmine/video/7648405692566523150",
+    "automated": {
+      "decision": "needs_review",
+      "category": "nostalgia_or_legacy",
+      "confidence": 0.66,
+      "reason": "Nostalgia context is explicit, but full video and audio evidence are unavailable."
+    },
+    "media": {
+      "status": "not_acquired",
+      "carouselComplete": false,
+      "videoComplete": false,
+      "audioTranscribed": false,
+      "ocrComplete": false
+    },
+    "evidence": [
+      {
+        "source": "hashtags",
+        "finding": "American Apparel and nostalgia hashtags",
+        "confidence": 0.9
+      }
+    ],
+    "reviewReason": "media_incomplete"
+  },
+  {
+    "key": "ig:3924239614076703360",
+    "id": "3924239614076703360",
+    "platform": "Instagram",
+    "itemType": "post",
+    "parentKey": null,
+    "source": "IG mention",
+    "published": "2026-06-21T07:10:38.000Z",
+    "author": "vixenchronicles",
+    "contentType": "carousel",
+    "caption": "Memory Spread",
+    "hashtags": [],
+    "mentions": [
+      "americanapparel"
+    ],
+    "comments": 4,
+    "likes": 129,
+    "plays": 0,
+    "url": "https://www.instagram.com/p/DZ1syMyjtKA/",
+    "automated": {
+      "decision": "needs_review",
+      "category": "ambiguous_incidental",
+      "confidence": 0.44,
+      "reason": "The brand appears in tags but is not clearly the subject of the caption."
+    },
+    "media": {
+      "status": "cover_only",
+      "carouselComplete": false,
+      "videoComplete": false,
+      "audioTranscribed": false,
+      "ocrComplete": false
+    },
+    "evidence": [
+      {
+        "source": "mention",
+        "finding": "American Apparel tagged with several accounts",
+        "confidence": 0.7
+      },
+      {
+        "source": "caption",
+        "finding": "Caption does not establish brand relevance",
+        "confidence": 0.95
+      }
+    ],
+    "reviewReason": "carousel_incomplete"
+  },
+  {
+    "key": "comment:tt:7651670861321129238:sample",
+    "id": "sample-comment",
+    "platform": "TikTok",
+    "itemType": "comment",
+    "parentKey": "tt:7651670861321129238",
+    "source": "TikTok comment",
+    "published": "2026-06-15T18:00:00.000Z",
+    "author": "example_reviewer_fixture",
+    "contentType": "text",
+    "caption": "Sample fixture showing that a comment is counted separately from its parent post.",
+    "hashtags": [],
+    "mentions": [],
+    "comments": 0,
+    "likes": 0,
+    "plays": 0,
+    "url": "https://www.tiktok.com/@estare/video/7651670861321129238",
+    "automated": {
+      "decision": "excluded",
+      "category": "test_fixture",
+      "confidence": 1.0,
+      "reason": "This is clearly labelled sample data used to demonstrate the parent/comment model."
+    },
+    "media": {
+      "status": "not_applicable",
+      "carouselComplete": true,
+      "videoComplete": true,
+      "audioTranscribed": true,
+      "ocrComplete": true
+    },
+    "evidence": [
+      {
+        "source": "system",
+        "finding": "Demonstration fixture, not a scraped production comment",
+        "confidence": 1.0
+      }
+    ],
+    "reviewReason": "none"
+  }
+]

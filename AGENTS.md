@@ -4,7 +4,48 @@ These instructions apply to every AI or human contributor.
 
 ## Required reading
 
-Read `README.md` and all relevant files in `docs/` before editing code.
+Read `README.md`, `inbox/status.md`, the latest file in `inbox/handoffs/`, and all relevant files in `docs/` before editing code.
+
+## Inbox protocol — agent communication
+
+This repo uses an `inbox/` folder system for inter-agent communication. See `inbox/README.md` for the full protocol.
+
+### Before starting work
+
+1. Read `inbox/status.md` for the current state.
+2. Read the most recent file in `inbox/handoffs/` if one exists.
+3. Check `inbox/tasks/` for anything assigned or in-progress.
+4. Check `inbox/decisions/` for prior decisions that affect your work.
+
+### While working
+
+1. Update `inbox/status.md` at the start and end of your session.
+2. Create a message in `inbox/messages/` if you need to flag something for the next agent.
+3. Create or update a task file in `inbox/tasks/` for any multi-step work.
+4. Log any significant decision in `inbox/decisions/` as an ADR.
+
+### When finishing a session
+
+1. Write a handoff document in `inbox/handoffs/` with: what you did, what is in-progress, what the next agent should do, any blockers.
+2. Update `inbox/status.md` with the final state.
+3. Append an entry to `.github/AGENT_LOG.md`.
+
+### Rules
+
+- **Never delete** files in `inbox/` — append-only.
+- **Never edit** a file you didn't create — add a new file instead.
+- **Always timestamp** entries (UTC).
+- **Always identify** your agent name and model.
+- **Reference commits** when mentioning work.
+
+## Source artifacts — do not modify
+
+- `legacy/original-review.html` — the original generated application. Immutable reference artifact.
+- `data/imports/American_Apparel_June_2026_First_Pass.xlsx` — the first-pass validation dataset (198 records). Immutable source data.
+
+## Data distinction — first-pass vs complete
+
+The xlsx in `data/imports/` is the **first-pass validation dataset**, not the final complete June scrape. Do not treat 198 records as the full June ingestion. The complete scrape is a backlog item.
 
 ## Development rules
 

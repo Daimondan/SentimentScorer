@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SentimentScorer — American Apparel Review</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <p class="eyebrow">SENTIMENTSCORER</p>
+      <h1>American Apparel Review</h1>
+      <p class="subtle">Working reconstructed baseline · shared server-side review state</p>
+    </div>
+    <div class="actions">
+      <a class="button secondary" href="/api/export">Export JSON</a>
+      <button class="button danger" id="reset-reviews" type="button">Reset reviews</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="notice">
+      <strong>Media honesty:</strong>
+      This baseline records whether full media was processed. A cover image is not treated as a full video or carousel analysis.
+    </section>
+
+    <section class="stats" id="stats" aria-label="Summary statistics"></section>
+
+    <section class="toolbar">
+      <label>
+        Search
+        <input id="search" type="search" placeholder="Caption, author, evidence">
+      </label>
+      <label>
+        Platform
+        <select id="platform">
+          <option value="all">All platforms</option>
+          <option value="Instagram">Instagram</option>
+          <option value="TikTok">TikTok</option>
+        </select>
+      </label>
+      <label>
+        View
+        <select id="view">
+          <option value="needs_review">Needs review</option>
+          <option value="relevant">Relevant</option>
+          <option value="legacy_throwback">Legacy / throwback</option>
+          <option value="excluded">Excluded</option>
+          <option value="reviewed">Human reviewed</option>
+          <option value="all">All content</option>
+        </select>
+      </label>
+    </section>
+
+    <section id="content-list" class="content-list" aria-live="polite"></section>
+  </main>
+
+  <dialog id="review-dialog">
+    <form method="dialog" class="dialog-shell">
+      <div class="dialog-header">
+        <div>
+          <p class="eyebrow">CONTENT EVIDENCE</p>
+          <h2 id="dialog-title">Review item</h2>
+        </div>
+        <button class="icon-button" value="cancel" aria-label="Close">×</button>
+      </div>
+
+      <div id="dialog-content"></div>
+
+      <section class="review-form">
+        <label>
+          Reviewer
+          <input id="reviewer" placeholder="Your name">
+        </label>
+        <label>
+          Decision
+          <select id="decision">
+            <option value="relevant">Relevant — current/general</option>
+            <option value="legacy_throwback">Relevant — legacy/throwback</option>
+            <option value="excluded">Exclude</option>
+            <option value="needs_review">Still needs review</option>
+          </select>
+        </label>
+        <label class="wide">
+          Notes
+          <textarea id="notes" rows="4" placeholder="What evidence drove the decision?"></textarea>
+        </label>
+        <div class="wide form-actions">
+          <span id="save-status" class="subtle"></span>
+          <button id="save-review" class="button primary" type="button">Save review</button>
+        </div>
+      </section>
+    </form>
+  </dialog>
+
+  <script src="/app.js" defer></script>
+</body>
+</html>

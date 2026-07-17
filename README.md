@@ -8,16 +8,67 @@ The immediate goal is to let any capable coding AI or developer clone this repos
 
 ---
 
+## Repository structure
+
+```
+SentimentScorer/
+├── README.md                  ← you are here
+├── AGENTS.md                  ← AI contributor instructions + inbox protocol
+├── server.js                  ← zero-dependency Node.js API server
+├── package.json
+├── .env.example
+├── .github/
+│   ├── AGENT_LOG.md           ← append-only log of every AI agent session
+│   ├── pull_request_template.md
+│   └── ISSUE_TEMPLATE/
+│       ├── feature.md
+│       └── classification-error.md
+├── public/                    ← browser review UI
+│   ├── index.html
+│   ├── styles.css
+│   └── app.js
+├── data/                      ← working application data (JSON store)
+│   ├── posts.json             ← representative content records (8 items)
+│   ├── reviews.json           ← shared review decisions
+│   ├── audit.json             ← append-only review audit events
+│   ├── posts.schema.json      ← content item schema
+│   └── imports/               ← external source datasets (immutable)
+│       ├── README.md
+│       └── American_Apparel_June_2026_First_Pass.xlsx  ← 198 first-pass records (8 sheets)
+├── legacy/                    ← original source artifacts (immutable)
+│   ├── README.md
+│   └── original-review.html   ← original generated app (437 KB, from ChatGPT File Library)
+├── docs/                      ← architecture, product, classification, backlog
+├── inbox/                     ← agent communication & task tracking system
+│   ├── README.md              ← protocol documentation
+│   ├── status.md              ← rolling current status (read this first)
+│   ├── messages/              ← timestamped agent messages
+│   ├── tasks/                 ← task tracking files
+│   ├── decisions/             ← decision log (ADR-style)
+│   └── handoffs/              ← session handoff documents
+└── SentimentScorer_GitHub_Ready.zip  ← original upload archive (can be removed after migration)
+```
+
+### Key distinctions
+
+- **`data/imports/`** holds the raw external source datasets. The xlsx there (198 records) is the **first-pass validation dataset**, NOT the final complete June scrape. The full June ingestion is still a backlog item.
+- **`legacy/`** holds the original single-file `review.html` artifact from the ChatGPT File Library. It is the reference for behavior questions — do not modify it.
+- **`inbox/`** is the inter-agent communication layer. Any AI agent working on this repo reads `inbox/status.md` and the latest handoff before starting, and writes a handoff when finishing.
+
+---
+
 ## Instructions for the next AI
 
 Read these files in order:
 
-1. `README.md`
+1. `README.md` (this file)
 2. `AGENTS.md`
-3. `docs/PRODUCT_REQUIREMENTS.md`
-4. `docs/CLASSIFICATION_RULES.md`
-5. `docs/MEDIA_ANALYSIS_PIPELINE.md`
-6. `docs/BACKLOG.md`
+3. `inbox/status.md` — current rolling status
+4. Latest file in `inbox/handoffs/` — most recent context handoff
+5. `docs/PRODUCT_REQUIREMENTS.md`
+6. `docs/CLASSIFICATION_RULES.md`
+7. `docs/MEDIA_ANALYSIS_PIPELINE.md`
+8. `docs/BACKLOG.md`
 
 Then:
 
@@ -28,6 +79,9 @@ Then:
 5. Do not claim full video/audio/carousel analysis until the actual media has been acquired and processed.
 6. Preserve automated predictions and human decisions separately.
 7. Treat posts and comments as separate content items.
+8. **Update `inbox/status.md`** at the start and end of your session.
+9. **Write a handoff** in `inbox/handoffs/` when you finish.
+10. **Log your session** in `.github/AGENT_LOG.md`.
 
 ### Recommended first engineering task
 
@@ -53,27 +107,29 @@ This ZIP contains:
 - a working zero-dependency Node.js application;
 - a browser review interface;
 - shared server-side review persistence using JSON;
-- representative June 2026 American Apparel records;
+- representative June 2026 American Apparel records (8-item sample in `data/posts.json`);
+- **198-record first-pass validation dataset** in `data/imports/American_Apparel_June_2026_First_Pass.xlsx` (first pass, not the complete June scrape);
+- the original generated application in `legacy/original-review.html`;
+- an **agent communication system** in `inbox/` for inter-agent handoffs and task tracking;
 - evidence and media-completeness fields;
 - exportable review data;
 - AI contributor instructions;
 - architecture, product, data-model and classification documentation;
 - a prioritized development backlog;
-- GitHub issue and pull-request templates.
+- GitHub issue and pull-request templates;
+- an append-only agent session log in `.github/AGENT_LOG.md`.
 
-## Important source-recovery note
+## Source artifacts
 
-The exact original single-file artifact, `review.html`, was located in the owner’s ChatGPT File Library and was used to verify the original application’s structure and behavior. That artifact is very large and the available File Library interface did not allow it to be copied byte-for-byte into this generated ZIP.
+### Original review.html — `legacy/original-review.html`
 
-Therefore:
+The original single-file application (`review.html`, 437 KB) was created July 15, 2026 in the owner's ChatGPT File Library. It has been downloaded and committed at `legacy/original-review.html`.
 
-- this repository is a **working reconstructed baseline**, not a byte-identical export of the original generated HTML;
+- this repository's `server.js` + `public/` is a **reconstructed baseline**, not a byte-identical export;
 - the product requirements, known rules, live URL, review behavior and representative data have been preserved;
-- the next developer should import the exact `review.html` later if the owner downloads it from ChatGPT File Library;
+- `legacy/original-review.html` is the **reference artifact** — when the reconstructed baseline diverges, the original wins for behavior questions;
 - do not treat the deployed Gizzle site as the durable source of truth;
-- GitHub should become the durable source of truth.
-
-The File Library artifact was created July 15, 2026 and titled `review.html`.
+- GitHub is the durable source of truth.
 
 ---
 
@@ -128,12 +184,28 @@ npm start
 
 ## Data files
 
-- `data/posts.json` — representative content records
+### Working data (JSON store)
+
+- `data/posts.json` — representative content records (8 items — sample only)
 - `data/reviews.json` — shared review decisions
 - `data/audit.json` — append-only review audit events
 - `data/posts.schema.json` — content item schema
 
 The JSON store is suitable only as an immediately runnable baseline. It is not the production database design.
+
+### Import datasets (immutable source artifacts)
+
+- `data/imports/American_Apparel_June_2026_First_Pass.xlsx` — **198 first-pass validation records** across 8 sheets:
+  - Overview (27 rows)
+  - All Posts (198 data rows)
+  - Relevant Posts (72)
+  - Priority Review (32)
+  - Separate-Exclude (86)
+  - Pulled Comments (15)
+  - Query Dictionary (13)
+  - Method (30)
+
+**This is the first-pass validation dataset, NOT the final complete June scrape.** The full June ingestion is tracked in `docs/BACKLOG.md` under P1 — Data and classification.
 
 ---
 
@@ -238,7 +310,7 @@ Do not use `--force` unless you understand and intend to replace the remote hist
 
 Copy this exactly:
 
-> Read README.md, AGENTS.md and all files in docs/. Run the application and inspect the current code before making changes. Treat this repository as the project source of truth. Start with the P0 backlog. First propose a short implementation plan, then create small, reviewable changes. Do not remove working behavior without explaining why. Do not claim full visual, carousel, video, audio or OCR analysis unless the relevant media was actually acquired and processed. Preserve human review decisions and automated predictions separately.
+> Read README.md, AGENTS.md, inbox/status.md, and the latest handoff in inbox/handoffs/. Then read all files in docs/. Run the application and inspect the current code before making changes. Treat this repository as the project source of truth. Start with the P0 backlog. First propose a short implementation plan, then create small, reviewable changes. Do not remove working behavior without explaining why. Do not claim full visual, carousel, video, audio or OCR analysis unless the relevant media was actually acquired and processed. Preserve human review decisions and automated predictions separately. Update inbox/status.md at the start and end of your session. Write a handoff in inbox/handoffs/ when you finish. Log your session in .github/AGENT_LOG.md.
 
 ---
 

@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SentimentScorer content item",
+  "type": "object",
+  "required": [
+    "key",
+    "platform",
+    "itemType",
+    "caption",
+    "url",
+    "automated",
+    "media",
+    "evidence"
+  ],
+  "properties": {
+    "key": {
+      "type": "string"
+    },
+    "id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "platform": {
+      "type": "string"
+    },
+    "itemType": {
+      "enum": [
+        "post",
+        "comment"
+      ]
+    },
+    "parentKey": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "caption": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "automated": {
+      "type": "object"
+    },
+    "media": {
+      "type": "object"
+    },
+    "evidence": {
+      "type": "array"
+    }
+  }
+}
