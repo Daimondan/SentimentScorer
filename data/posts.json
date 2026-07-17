@@ -217,7 +217,9 @@
     "llmReview": true,
     "styles": [],
     "shortCode": "DaOrZ8pj8z3",
-    "alternateUrl": ""
+    "alternateUrl": "",
+    "aaSubcategory": "blank_merch",
+    "aaSubcategoryReason": "Merch signals: ['promo']"
   },
   {
     "key": "ig:3920166440132969206",
@@ -350,7 +352,10 @@
     "llmReview": false,
     "styles": [],
     "shortCode": "DZ-ck8uRRps",
-    "alternateUrl": "https://www.instagram.com/reel/DZ-ck8uRRps/"
+    "alternateUrl": "https://www.instagram.com/reel/DZ-ck8uRRps/",
+    "aaSubcategory": "unclear",
+    "aaSubcategoryReason": "Visual: Person in fuchsia/magenta garment, no visible AA tag or logo. Aesthetic is glam, not specifically AA. Caption mentions Versace, not AA. No AA product visible.",
+    "aaSubcategoryConfidence": "low"
   },
   {
     "key": "ig:3928589140133046851",
@@ -723,7 +728,10 @@
     "llmReview": false,
     "styles": [],
     "shortCode": "DZ_fKltkdKM",
-    "alternateUrl": ""
+    "alternateUrl": "",
+    "aaSubcategory": "legacy_vintage",
+    "aaSubcategoryReason": "Visual: 2000s house party photo, woman in turquoise tube dress - classic legacy AA Cotton Spandex Jersey Bandeau Dress style. @indiesleeze tag confirms retro era. No tag visible but style is unmistakably legacy AA era.",
+    "aaSubcategoryConfidence": "medium"
   },
   {
     "key": "ig:3927935509327010353",
@@ -792,7 +800,9 @@
     "llmReview": true,
     "styles": [],
     "shortCode": "DaC1IjeFFox",
-    "alternateUrl": ""
+    "alternateUrl": "",
+    "aaSubcategory": "tshirt_tag_current",
+    "aaSubcategoryReason": "Current product signals: ['gildan.co.kr', 'gildan', '박시핏']"
   },
   {
     "key": "ig:3926623745675536808",
@@ -850,7 +860,9 @@
     "llmReview": true,
     "styles": [],
     "shortCode": "DZ-K34Xmqmo",
-    "alternateUrl": ""
+    "alternateUrl": "",
+    "aaSubcategory": "legacy_vintage",
+    "aaSubcategoryReason": "Found old AA clothes in closet, nostalgic tone about the brand"
   },
   {
     "key": "tt:7656568396028366111",
@@ -1049,7 +1061,9 @@
     "llmReview": true,
     "styles": [],
     "shortCode": "DaGJrkylFcs",
-    "alternateUrl": ""
+    "alternateUrl": "",
+    "aaSubcategory": "legacy_vintage",
+    "aaSubcategoryReason": "Strong legacy signals: ['tumblraesthetic', 'tumblr2014', '2014']"
   },
   {
     "key": "ig:3928858511220665534",
@@ -1118,7 +1132,10 @@
     "llmReview": false,
     "styles": [],
     "shortCode": "DaGG__-E-y-",
-    "alternateUrl": ""
+    "alternateUrl": "",
+    "aaSubcategory": "tshirt_tag_current",
+    "aaSubcategoryReason": "Visual: Person in white crew-neck tee on Korean street. Caption says \"top: @americanapparel\" - tagging the brand. Basic heavyweight tee could be current AA 1301. No vintage signals. Personal outfit post.",
+    "aaSubcategoryConfidence": "medium"
   },
   {
     "key": "ig:3920453831814120238",
@@ -1523,7 +1540,9 @@
     "llmReview": false,
     "styles": [],
     "shortCode": "DZna48Ck2DC",
-    "alternateUrl": ""
+    "alternateUrl": "",
+    "aaSubcategory": "legacy_vintage",
+    "aaSubcategoryReason": "Strong legacy signals: ['2008']"
   },
   {
     "key": "ig:3930938201309518828",
@@ -1934,7 +1953,9 @@
       "Disco pants"
     ],
     "shortCode": "",
-    "alternateUrl": ""
+    "alternateUrl": "",
+    "aaSubcategory": "legacy_vintage",
+    "aaSubcategoryReason": "Strong legacy signals: ['throwback', '2000s']"
   },
   {
     "key": "ig:3928086321936114799",
@@ -2001,7 +2022,10 @@
     "llmReview": false,
     "styles": [],
     "shortCode": "DaDXbKqEqRv",
-    "alternateUrl": ""
+    "alternateUrl": "",
+    "aaSubcategory": "tshirt_tag_current",
+    "aaSubcategoryReason": "Visual: Man in white crew-neck tee + jeans, walking outdoors. Caption says \"Top #americanapparel\" - tagging the brand. Clean basic tee, no vintage/legacy signals. Current era outfit post.",
+    "aaSubcategoryConfidence": "medium"
   },
   {
     "key": "ig:3928014480614207074",
@@ -2541,7 +2565,9 @@
       "Fine Jersey"
     ],
     "shortCode": "DZxOnjHkSME",
-    "alternateUrl": ""
+    "alternateUrl": "",
+    "aaSubcategory": "brand_retailer",
+    "aaSubcategoryReason": "Official/regional brand account: @americanapparelindia"
   },
   {
     "key": "ig:3921571161976915930",
@@ -2994,7 +3020,9 @@
     "llmReview": false,
     "styles": [],
     "shortCode": "DaGUHtckcu1",
-    "alternateUrl": ""
+    "alternateUrl": "",
+    "aaSubcategory": "brand_retailer",
+    "aaSubcategoryReason": "Boutique selling AA products, 40% off + free shipping"
   },
   {
     "key": "ig:3928785894237320584",
@@ -3317,7 +3345,9 @@
       "Hoodie"
     ],
     "shortCode": "DZ13z2ujnPg",
-    "alternateUrl": ""
+    "alternateUrl": "",
+    "aaSubcategory": "legacy_vintage",
+    "aaSubcategoryReason": "Lady Gaga in 2011 wearing AA zip hoodie, archival photo"
   },
   {
     "key": "ig:3923813749596691620",
@@ -3450,7 +3480,9 @@
     "llmReview": false,
     "styles": [],
     "shortCode": "DZx5ziKyFi0",
-    "alternateUrl": "https://www.instagram.com/reel/DZx5ziKyFi0/"
+    "alternateUrl": "https://www.instagram.com/reel/DZx5ziKyFi0/",
+    "aaSubcategory": "legacy_vintage",
+    "aaSubcategoryReason": "Strong legacy signals: ['discontinued']"
   },
   {
     "key": "ig:3921581560498159511",
@@ -3510,7 +3542,10 @@
     "llmReview": false,
     "styles": [],
     "shortCode": "DZsQabfNv-X",
-    "alternateUrl": "https://www.instagram.com/reel/DZsQabfNv-X/"
+    "alternateUrl": "https://www.instagram.com/reel/DZsQabfNv-X/",
+    "aaSubcategory": "unclear",
+    "aaSubcategoryReason": "Visual: Person walking in Paris street style. Leopard print wide-leg trousers. Caption says \"Top @americanapparel\" but visual shows textured knit top, not clearly AA. Legacy-style wide-leg pants could be vintage AA but no tag visible. Mixed signals.",
+    "aaSubcategoryConfidence": "low"
   },
   {
     "key": "ig:3921523113225325732",
@@ -3574,7 +3609,9 @@
     "llmReview": false,
     "styles": [],
     "shortCode": "DZsDH6OR4yk",
-    "alternateUrl": ""
+    "alternateUrl": "",
+    "aaSubcategory": "blank_merch",
+    "aaSubcategoryReason": "Spirit of 76 collection, American style for July 4th"
   },
   {
     "key": "ig:3921116946413936216",
@@ -3639,7 +3676,10 @@
     "llmReview": false,
     "styles": [],
     "shortCode": "DZqmxZ5xF5Y",
-    "alternateUrl": ""
+    "alternateUrl": "",
+    "aaSubcategory": "legacy_vintage",
+    "aaSubcategoryReason": "Visual: Two women in Y2K aesthetic - ringer tees with \"Chien Rouge\" graphic, low-rise flared jeans. Strong early-2000s/legacy era styling. No AA tag visible but aesthetic is classic legacy AA era.",
+    "aaSubcategoryConfidence": "medium"
   },
   {
     "key": "ig:3920919986424775522",
@@ -3762,7 +3802,9 @@
     "llmReview": false,
     "styles": [],
     "shortCode": "DZjckMLGyzB",
-    "alternateUrl": ""
+    "alternateUrl": "",
+    "aaSubcategory": "legacy_vintage",
+    "aaSubcategoryReason": "Strong legacy signals: ['circa']"
   },
   {
     "key": "ig:3931031639766030408",
@@ -4004,7 +4046,9 @@
     "llmReview": false,
     "styles": [],
     "shortCode": "DaLJuv9GsIt",
-    "alternateUrl": ""
+    "alternateUrl": "",
+    "aaSubcategory": "legacy_vintage",
+    "aaSubcategoryReason": "Legacy signals: ['vintage', '2011', 'soldout']"
   },
   {
     "key": "ig:3930204172297939990",
@@ -4443,7 +4487,9 @@
     "llmReview": false,
     "styles": [],
     "shortCode": "",
-    "alternateUrl": ""
+    "alternateUrl": "",
+    "aaSubcategory": "legacy_vintage",
+    "aaSubcategoryReason": "Strong legacy signals: ['tumblraesthetic', '2014']"
   },
   {
     "key": "ig:3924523116429358110",
@@ -4629,7 +4675,9 @@
     "llmReview": true,
     "styles": [],
     "shortCode": "DZvPntTiHiS",
-    "alternateUrl": ""
+    "alternateUrl": "",
+    "aaSubcategory": "legacy_vintage",
+    "aaSubcategoryReason": "Strong legacy signals: ['throwback', '2010s']"
   },
   {
     "key": "ig:3921610829934642425",
@@ -5006,7 +5054,9 @@
     "llmReview": true,
     "styles": [],
     "shortCode": "",
-    "alternateUrl": ""
+    "alternateUrl": "",
+    "aaSubcategory": "legacy_vintage",
+    "aaSubcategoryReason": "Strong legacy signals: ['nostalgia']"
   },
   {
     "key": "ig:3931019662092512090",
@@ -5068,7 +5118,9 @@
     "llmReview": false,
     "styles": [],
     "shortCode": "DaNyY4kGata",
-    "alternateUrl": ""
+    "alternateUrl": "",
+    "aaSubcategory": "brand_retailer",
+    "aaSubcategoryReason": "Official/regional brand account: @american_attire_formen"
   },
   {
     "key": "ig:3928738549034443619",
@@ -5195,7 +5247,9 @@
     "llmReview": false,
     "styles": [],
     "shortCode": "DaAsw91E02M",
-    "alternateUrl": ""
+    "alternateUrl": "",
+    "aaSubcategory": "blank_merch",
+    "aaSubcategoryReason": "Custom 250th anniversary shirts on AA blanks, limited run of 250"
   },
   {
     "key": "ig:3926580758756776527",
@@ -5373,7 +5427,9 @@
     "llmReview": false,
     "styles": [],
     "shortCode": "DZ2Uy72DIEq",
-    "alternateUrl": ""
+    "alternateUrl": "",
+    "aaSubcategory": "brand_retailer",
+    "aaSubcategoryReason": "Authorized AA/Gildan retailer in Thailand selling current 1301 California Classic"
   },
   {
     "key": "ig:3923808369743839599",
@@ -5959,7 +6015,9 @@
     "llmReview": false,
     "styles": [],
     "shortCode": "DZrW-FPRTGU",
-    "alternateUrl": ""
+    "alternateUrl": "",
+    "aaSubcategory": "blank_merch",
+    "aaSubcategoryReason": "Selling blanks: \"Crop tees. Heavy tees. Caps from flexfit, ascolour... Print or engrave\""
   },
   {
     "key": "ig:3921214687118054405",
@@ -6021,7 +6079,9 @@
     "llmReview": false,
     "styles": [],
     "shortCode": "DZq8_uBt1QF",
-    "alternateUrl": ""
+    "alternateUrl": "",
+    "aaSubcategory": "blank_merch",
+    "aaSubcategoryReason": "Vintage-inspired but current 250th anniversary trucker cap for sale"
   },
   {
     "key": "ig:3920948973632380148",
@@ -6270,7 +6330,9 @@
     "llmReview": false,
     "styles": [],
     "shortCode": "DZnGhgMCm35",
-    "alternateUrl": ""
+    "alternateUrl": "",
+    "aaSubcategory": "legacy_vintage",
+    "aaSubcategoryReason": "Strong legacy signals: ['2006', '2011', 'ads in']"
   },
   {
     "key": "ig:3920087267119512919",
@@ -6392,7 +6454,9 @@
     "llmReview": false,
     "styles": [],
     "shortCode": "DZm7cFoGagw",
-    "alternateUrl": ""
+    "alternateUrl": "",
+    "aaSubcategory": "brand_retailer",
+    "aaSubcategoryReason": "Official/regional brand account: @americanapparelindia"
   },
   {
     "key": "ig:3919450525062633781",
@@ -6771,7 +6835,10 @@
     "llmReview": false,
     "styles": [],
     "shortCode": "",
-    "alternateUrl": ""
+    "alternateUrl": "",
+    "aaSubcategory": "legacy_vintage",
+    "aaSubcategoryReason": "Visual: Official legacy AA print ad featuring Lana Del Rey (~2012). American Apparel logo visible. Classic \"Meet Lana\" ad campaign. Moodboard/aesthetic share of vintage AA advertising.",
+    "aaSubcategoryConfidence": "high"
   },
   {
     "key": "ig:3931190831599065212",
@@ -6955,7 +7022,10 @@
     "llmReview": false,
     "styles": [],
     "shortCode": "",
-    "alternateUrl": ""
+    "alternateUrl": "",
+    "aaSubcategory": "legacy_vintage",
+    "aaSubcategoryReason": "Visual: Fitting room mirror selfie at Garage Clothing (not AA). Text overlay \"It's giving American Apparel\" - wearing non-AA items that mimic the legacy AA aesthetic. Not actual AA product, referencing legacy era style.",
+    "aaSubcategoryConfidence": "high"
   },
   {
     "key": "ig:3930712033633376002",
@@ -7018,7 +7088,9 @@
       "California Classic"
     ],
     "shortCode": "DaMscTPEhcC",
-    "alternateUrl": ""
+    "alternateUrl": "",
+    "aaSubcategory": "brand_retailer",
+    "aaSubcategoryReason": "Authorized AA/Gildan retailer in Thailand selling current 1301 California Classic"
   },
   {
     "key": "ig:3930343475685467792",
@@ -7227,7 +7299,9 @@
     "llmReview": false,
     "styles": [],
     "shortCode": "DaJx-JIGZ7k",
-    "alternateUrl": ""
+    "alternateUrl": "",
+    "aaSubcategory": "brand_retailer",
+    "aaSubcategoryReason": "Official/regional brand account: @gildan_korea"
   },
   {
     "key": "ig:3929891240142268445",
@@ -7307,7 +7381,9 @@
     "llmReview": false,
     "styles": [],
     "shortCode": "DaJx0LumWgd",
-    "alternateUrl": ""
+    "alternateUrl": "",
+    "aaSubcategory": "brand_retailer",
+    "aaSubcategoryReason": "Official/regional brand account: @gildan_korea"
   },
   {
     "key": "ig:3929889681782167097",
@@ -7387,7 +7463,9 @@
     "llmReview": false,
     "styles": [],
     "shortCode": "DaJxdgZGVY5",
-    "alternateUrl": ""
+    "alternateUrl": "",
+    "aaSubcategory": "brand_retailer",
+    "aaSubcategoryReason": "Official/regional brand account: @gildan_korea"
   },
   {
     "key": "ig:3929888001653055855",
@@ -7466,7 +7544,9 @@
     "llmReview": false,
     "styles": [],
     "shortCode": "DaJxFDpmaFv",
-    "alternateUrl": ""
+    "alternateUrl": "",
+    "aaSubcategory": "brand_retailer",
+    "aaSubcategoryReason": "Official/regional brand account: @gildan_korea"
   },
   {
     "key": "ig:3929883636162692331",
@@ -7546,7 +7626,9 @@
     "llmReview": false,
     "styles": [],
     "shortCode": "DaJwFh-GQTr",
-    "alternateUrl": ""
+    "alternateUrl": "",
+    "aaSubcategory": "brand_retailer",
+    "aaSubcategoryReason": "Official/regional brand account: @gildan_korea"
   },
   {
     "key": "ig:3929882418522747542",
@@ -7627,7 +7709,9 @@
     "llmReview": false,
     "styles": [],
     "shortCode": "DaJvzz9GfKW",
-    "alternateUrl": ""
+    "alternateUrl": "",
+    "aaSubcategory": "brand_retailer",
+    "aaSubcategoryReason": "Official/regional brand account: @gildan_korea"
   },
   {
     "key": "ig:3929601757805880212",
@@ -7687,7 +7771,9 @@
     "llmReview": false,
     "styles": [],
     "shortCode": "DaIv_qSxSOU",
-    "alternateUrl": ""
+    "alternateUrl": "",
+    "aaSubcategory": "brand_retailer",
+    "aaSubcategoryReason": "Boutique selling American-wear for July 4th"
   },
   {
     "key": "ig:3929527041250145188",
@@ -7749,7 +7835,9 @@
     "llmReview": false,
     "styles": [],
     "shortCode": "DaIfAZFAbOk",
-    "alternateUrl": ""
+    "alternateUrl": "",
+    "aaSubcategory": "tshirt_tag_current",
+    "aaSubcategoryReason": "Current product signals: ['tri-blend']"
   },
   {
     "key": "ig:3928984602118347953",
@@ -7810,7 +7898,10 @@
     "llmReview": false,
     "styles": [],
     "shortCode": "DaGjq3RPlyx",
-    "alternateUrl": ""
+    "alternateUrl": "",
+    "aaSubcategory": "legacy_vintage",
+    "aaSubcategoryReason": "Visual: Woman in floral cardigan + black athletic shorts with white piping. Shorts resemble AA Interlock Running Short. Caption \"wearing #americanapparel\". Aesthetic is indie sleaze/soft grunge era - legacy.",
+    "aaSubcategoryConfidence": "medium"
   },
   {
     "key": "ig:3928462246170871942",
@@ -7878,7 +7969,9 @@
       "California Classic"
     ],
     "shortCode": "DaEs5lYjEiG",
-    "alternateUrl": ""
+    "alternateUrl": "",
+    "aaSubcategory": "brand_retailer",
+    "aaSubcategoryReason": "Official/regional brand account: @gildan_bangkokthailand"
   },
   {
     "key": "ig:3928134748522951325",
@@ -8021,7 +8114,9 @@
     "llmReview": false,
     "styles": [],
     "shortCode": "DaDe-1cHOAZ",
-    "alternateUrl": ""
+    "alternateUrl": "",
+    "aaSubcategory": "legacy_vintage",
+    "aaSubcategoryReason": "Vintage denim, Americana edit - thrifted/preloved"
   },
   {
     "key": "ig:3928027744874112865",
@@ -8085,7 +8180,9 @@
     "llmReview": false,
     "styles": [],
     "shortCode": "DaDKGwhGadh",
-    "alternateUrl": ""
+    "alternateUrl": "",
+    "aaSubcategory": "legacy_vintage",
+    "aaSubcategoryReason": "Strong legacy signals: ['2hand']"
   },
   {
     "key": "ig:3928016290875473947",
@@ -8211,7 +8308,9 @@
     "llmReview": false,
     "styles": [],
     "shortCode": "DaBvPqbCA_a",
-    "alternateUrl": ""
+    "alternateUrl": "",
+    "aaSubcategory": "brand_retailer",
+    "aaSubcategoryReason": "Official/regional brand account: @americaapparels"
   },
   {
     "key": "ig:3927280387982948549",
@@ -8339,7 +8438,9 @@
     "llmReview": false,
     "styles": [],
     "shortCode": "DaANgdoA7so",
-    "alternateUrl": ""
+    "alternateUrl": "",
+    "aaSubcategory": "legacy_vintage",
+    "aaSubcategoryReason": "Strong legacy signals: ['vintage', 'preloved']"
   },
   {
     "key": "ig:3926710765731008339",
@@ -8406,7 +8507,9 @@
       "Blanks"
     ],
     "shortCode": "DZ-eqMHGU9T",
-    "alternateUrl": ""
+    "alternateUrl": "",
+    "aaSubcategory": "blank_merch",
+    "aaSubcategoryReason": "Current merch signals: ['blank', 'wholesale', 'print'] + ['premium', 'print-ready', 'wholesale']"
   },
   {
     "key": "ig:3926691184218539289",
@@ -8596,7 +8699,9 @@
     "llmReview": true,
     "styles": [],
     "shortCode": "",
-    "alternateUrl": ""
+    "alternateUrl": "",
+    "aaSubcategory": "legacy_vintage",
+    "aaSubcategoryReason": "Strong legacy signals: ['2000s', 'tumblraesthetic']"
   },
   {
     "key": "ig:3926570397056061319",
@@ -8662,7 +8767,9 @@
       "Hoodie"
     ],
     "shortCode": "DZ9-vjmF0-H",
-    "alternateUrl": ""
+    "alternateUrl": "",
+    "aaSubcategory": "blank_merch",
+    "aaSubcategoryReason": "Patriotic merch hoodie for sale, $35, \"click link to shop\""
   },
   {
     "key": "ig:3926570650098444686",
@@ -8952,7 +9059,9 @@
       "Hoodie"
     ],
     "shortCode": "DZ9-wOBF6Sw",
-    "alternateUrl": ""
+    "alternateUrl": "",
+    "aaSubcategory": "blank_merch",
+    "aaSubcategoryReason": "Patriotic merch hoodie for sale, $35, \"click link to shop\""
   },
   {
     "key": "ig:3926570615101178314",
@@ -9074,7 +9183,9 @@
       "Hoodie"
     ],
     "shortCode": "DZ9-1ePl5jm",
-    "alternateUrl": ""
+    "alternateUrl": "",
+    "aaSubcategory": "blank_merch",
+    "aaSubcategoryReason": "Patriotic merch hoodie for sale, $35, \"click link to shop\""
   },
   {
     "key": "ig:3926570781044631147",
@@ -9495,7 +9606,9 @@
     "llmReview": false,
     "styles": [],
     "shortCode": "DZ5GerxB8rr",
-    "alternateUrl": ""
+    "alternateUrl": "",
+    "aaSubcategory": "brand_retailer",
+    "aaSubcategoryReason": "Shop 4th of July display, red white blue essentials"
   },
   {
     "key": "ig:3925224403629535691",
@@ -9563,7 +9676,9 @@
     "llmReview": false,
     "styles": [],
     "shortCode": "DZ5MsxiCHHL",
-    "alternateUrl": ""
+    "alternateUrl": "",
+    "aaSubcategory": "blank_merch",
+    "aaSubcategoryReason": "Current merch signals: ['print', 'screenprint', 'promo'] + ['america250', 'patriotic']"
   },
   {
     "key": "ig:3925188913945156430",
@@ -9630,7 +9745,9 @@
     "llmReview": false,
     "styles": [],
     "shortCode": "DZ5EoVMAJtO",
-    "alternateUrl": ""
+    "alternateUrl": "",
+    "aaSubcategory": "blank_merch",
+    "aaSubcategoryReason": "America 250 Eagle Art T-shirt, limited edition collab with varevolution250"
   },
   {
     "key": "ig:3925153839795828895",
@@ -9750,7 +9867,9 @@
     "llmReview": false,
     "styles": [],
     "shortCode": "DZ435x-kfXQ",
-    "alternateUrl": ""
+    "alternateUrl": "",
+    "aaSubcategory": "tshirt_tag_current",
+    "aaSubcategoryReason": "Current product signals: ['shop now']"
   },
   {
     "key": "ig:3925079989221791661",
@@ -9817,7 +9936,9 @@
       "California Classic"
     ],
     "shortCode": "DZ4r3RIjxet",
-    "alternateUrl": ""
+    "alternateUrl": "",
+    "aaSubcategory": "brand_retailer",
+    "aaSubcategoryReason": "Official/regional brand account: @gildan_bangkokthailand"
   },
   {
     "key": "ig:3925073988976654301",
@@ -9879,7 +10000,9 @@
     "llmReview": false,
     "styles": [],
     "shortCode": "DZ4qf8-FDfd",
-    "alternateUrl": ""
+    "alternateUrl": "",
+    "aaSubcategory": "legacy_vintage",
+    "aaSubcategoryReason": "Secondhand/thrifted AA heavyweight cotton graphic tee"
   },
   {
     "key": "ig:3925058644697835257",
@@ -9937,7 +10060,9 @@
     "llmReview": false,
     "styles": [],
     "shortCode": "DZ4nAqfymb5",
-    "alternateUrl": ""
+    "alternateUrl": "",
+    "aaSubcategory": "legacy_vintage",
+    "aaSubcategoryReason": "Strong legacy signals: ['단종', 'sold out']"
   },
   {
     "key": "ig:3924499217419400628",
@@ -10267,7 +10392,9 @@
     "llmReview": true,
     "styles": [],
     "shortCode": "",
-    "alternateUrl": ""
+    "alternateUrl": "",
+    "aaSubcategory": "legacy_vintage",
+    "aaSubcategoryReason": "Strong legacy signals: ['2010s', 'nostalgia']"
   },
   {
     "key": "ig:3923760716348339006",
@@ -10584,7 +10711,9 @@
     "llmReview": false,
     "styles": [],
     "shortCode": "DZy5DStgVpg",
-    "alternateUrl": ""
+    "alternateUrl": "",
+    "aaSubcategory": "brand_retailer",
+    "aaSubcategoryReason": "Official/regional brand account: @gildan_bangkokthailand"
   },
   {
     "key": "ig:3923318424297918727",
@@ -10776,7 +10905,9 @@
     "llmReview": false,
     "styles": [],
     "shortCode": "DZxjSPCkQlw",
-    "alternateUrl": ""
+    "alternateUrl": "",
+    "aaSubcategory": "brand_retailer",
+    "aaSubcategoryReason": "Boutique in Dominican Republic selling AA corset"
   },
   {
     "key": "ig:3922994696331004757",
@@ -10855,7 +10986,9 @@
       "Hoodie"
     ],
     "shortCode": "DZxRuQyjQtV",
-    "alternateUrl": ""
+    "alternateUrl": "",
+    "aaSubcategory": "blank_merch",
+    "aaSubcategoryReason": "Custom hoodie manufacturer, $20 with worldwide shipping"
   },
   {
     "key": "ig:3922987739012986907",
@@ -11041,7 +11174,9 @@
     "llmReview": false,
     "styles": [],
     "shortCode": "DZwXp8vCgfI",
-    "alternateUrl": ""
+    "alternateUrl": "",
+    "aaSubcategory": "legacy_vintage",
+    "aaSubcategoryReason": "Strong legacy signals: ['no disponible']"
   },
   {
     "key": "ig:3922347078697791736",
@@ -11234,7 +11369,9 @@
     "llmReview": false,
     "styles": [],
     "shortCode": "DZuuSraFx2S",
-    "alternateUrl": ""
+    "alternateUrl": "",
+    "aaSubcategory": "blank_merch",
+    "aaSubcategoryReason": "Patriotic V-neck tee for sale, \"click link to shop\""
   },
   {
     "key": "ig:3922218027403880360",
@@ -11295,7 +11432,9 @@
     "llmReview": false,
     "styles": [],
     "shortCode": "DZuhIPfCqeo",
-    "alternateUrl": ""
+    "alternateUrl": "",
+    "aaSubcategory": "brand_retailer",
+    "aaSubcategoryReason": "Authorized AA/Gildan retailer in Thailand selling current 1301 California Classic"
   },
   {
     "key": "ig:3921940367921744224",
@@ -11552,7 +11691,9 @@
     "llmReview": false,
     "styles": [],
     "shortCode": "DZpe6lcit0x",
-    "alternateUrl": ""
+    "alternateUrl": "",
+    "aaSubcategory": "brand_retailer",
+    "aaSubcategoryReason": "Official/regional brand account: @american_attire_formen"
   },
   {
     "key": "ig:3920490256198302347",
@@ -11614,7 +11755,9 @@
     "llmReview": false,
     "styles": [],
     "shortCode": "DZoYR3KFHqL",
-    "alternateUrl": ""
+    "alternateUrl": "",
+    "aaSubcategory": "blank_merch",
+    "aaSubcategoryReason": "Etsy shop selling 250th America apparel"
   },
   {
     "key": "ig:3920204423872043199",
@@ -11881,7 +12024,9 @@
     "llmReview": false,
     "styles": [],
     "shortCode": "DZlf_VeD07m",
-    "alternateUrl": ""
+    "alternateUrl": "",
+    "aaSubcategory": "blank_merch",
+    "aaSubcategoryReason": "Current merch signals: ['custom'] + ['premium']"
   },
   {
     "key": "ig:3919402294316638559",
@@ -11942,7 +12087,10 @@
     "llmReview": false,
     "styles": [],
     "shortCode": "DZkg57smCFf",
-    "alternateUrl": ""
+    "alternateUrl": "",
+    "aaSubcategory": "legacy_vintage",
+    "aaSubcategoryReason": "Visual: Official legacy AA \"Basics\" ad campaign. American Apparel logo, \"Made in Downtown LA / Sweatshop Free\" text, retail locations listed. Classic Dov Charney era advertisement.",
+    "aaSubcategoryConfidence": "high"
   },
   {
     "key": "ig:3919401776092931963",
@@ -12006,7 +12154,10 @@
     "llmReview": false,
     "styles": [],
     "shortCode": "DZkgyZEDed7",
-    "alternateUrl": ""
+    "alternateUrl": "",
+    "aaSubcategory": "legacy_vintage",
+    "aaSubcategoryReason": "Visual: Woman in yellow skater dress - matches AA Ponte Skater Dress, a legacy era staple. Mirror selfie with #aaselfie #ootn tags. No tag visible but style is unmistakably legacy AA product.",
+    "aaSubcategoryConfidence": "medium"
   },
   {
     "key": "ig:3919335495696009660",
@@ -12068,7 +12219,9 @@
     "llmReview": false,
     "styles": [],
     "shortCode": "DZkRt4oikm8",
-    "alternateUrl": ""
+    "alternateUrl": "",
+    "aaSubcategory": "brand_retailer",
+    "aaSubcategoryReason": "Official/regional brand account: @american_attire_formen"
   },
   {
     "key": "ig:3919290721425932932",
@@ -12385,7 +12538,9 @@
     "llmReview": false,
     "styles": [],
     "shortCode": "DZg7fmfgRzI",
-    "alternateUrl": ""
+    "alternateUrl": "",
+    "aaSubcategory": "legacy_vintage",
+    "aaSubcategoryReason": "Strong legacy signals: ['vintage']"
   },
   {
     "key": "ig:3918315380188388489",
@@ -12451,7 +12606,9 @@
     "llmReview": false,
     "styles": [],
     "shortCode": "DZgpxQCFByJ",
-    "alternateUrl": ""
+    "alternateUrl": "",
+    "aaSubcategory": "brand_retailer",
+    "aaSubcategoryReason": "Official/regional brand account: @gildan_bangkokthailand"
   },
   {
     "key": "ig:3918155405728627560",
@@ -12512,7 +12669,10 @@
     "llmReview": false,
     "styles": [],
     "shortCode": "DZgFZUNOzto",
-    "alternateUrl": ""
+    "alternateUrl": "",
+    "aaSubcategory": "unclear",
+    "aaSubcategoryReason": "Visual: Handmade polymer clay earrings by \"BUD & BUGS by Lauren\" - NOT American Apparel at all. Using #americanapparel hashtag likely for reach/algorithm. Misclassified as relevant.",
+    "aaSubcategoryConfidence": "high"
   },
   {
     "key": "ig:3917989812204970042",
@@ -12636,7 +12796,9 @@
     "llmReview": false,
     "styles": [],
     "shortCode": "DZfWnpIin-w",
-    "alternateUrl": ""
+    "alternateUrl": "",
+    "aaSubcategory": "brand_retailer",
+    "aaSubcategoryReason": "Official/regional brand account: @american_attire_formen"
   },
   {
     "key": "ig:3917766045104616199",
